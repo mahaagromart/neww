@@ -1,0 +1,8 @@
+[build]
+  # The command to run the build process
+  command = "next build"
+  # The directory where the build files will be stored
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
